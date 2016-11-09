@@ -1,0 +1,205 @@
+header {background-image: url("elements/diwanee-cover.png");background-position: center top;background-size: auto 100%}
+
+@font-face {font-family: Semibold;src: url(SourceSanspro-Semibold.otf);}
+
+
+@font-face {font-family: Regular;src: url(SourceSanspro-Regular.otf);}
+
+
+@font-face {font-family: Light;src: url(SourceSanspro-Light.otf);}
+
+
+.diwanee{font-family:Semibold;font-size: 120px;color: #333;letter-spacing: 1px;text-align: center;margin-bottom: 20px;padding: 0px 50px;}
+
+
+
+.digital{font-family: Regular;font-size: 30px;color: #333;letter-spacing: 1px;line-height: 40px;text-align: center;
+	padding-bottom: 50px;display: none;margin-bottom: 0px}
+
+
+
+body{margin: 0px; padding: 0px}
+
+.logo{margin-top: 20px; margin-left:10%}
+
+.menuicon .burger div{ width: 35px;height: 5px;background-color: black;margin: 6px 0;}
+
+.close { display: none;background-image: url("elements/close.png");width: 35px;height: 35px;background-size: 100% 100%}
+
+.menuicon {float: right;display: none;margin-top: 15px;margin-right: 15px;cursor: pointer;}
+
+.redline{border: 3px solid #C41230;margin: 0 auto;width: 40px}
+
+.grayline  {border: 3px solid #aaa;margin: 0 auto;width: 40px}
+
+.digital2{font-family: Regular;font-size: 36px;color: #333333;line-height: 50px;text-align: center;padding:0px 20% 100px 20%;margin-bottom: 0px}
+
+.menu{display: inline-block;font-family: Regular;float: right;margin-right: 10%;margin-top: 20px;}
+
+.menu div{display: inline-block;padding: 0px 20px;letter-spacing: 5px;color: #333333}
+
+
+.frontend  {font-family: Light;font-size: 20px;color: #888;text-align: center;}
+
+
+.titles  {font-family: Regular;color: #333;font-size: 24px;letter-spacing: 4px;line-height: 30px;}
+
+.infos {display: table-cell;width: 33.33%;padding: 50px 20px;text-align: center;}
+
+.infos1 {background-color: #f2f2f2;background-image: url("elements/triangle-white.png");
+background-position: -300px 0px;background-repeat: no-repeat;}
+
+
+.infos2 {background-color: #ddd}
+
+.infos3 {background-color: #f2f2f2;background-image: url("elements/square-white.png");
+background-position: 100px 0px;background-repeat: no-repeat;}
+
+.poslovi{text-align: center;padding: 50px;}
+
+.pozicija{padding:50px 20%;}
+
+
+.pozicije{font-family: Light;color:#888;letter-spacing: 2px;}
+
+.posloviparagraf{font-family: Regular;color: #333;font-size: 36px}
+
+.weare {font-family: Light;font-size: 36px;color: #333333;line-height: 50px}
+
+.fe{font-family: Semibold;font-size: 28px;color:#333333;letter-spacing: 2.33px;line-height: 36px}
+
+.opis{font-family: Light;font-size: 24px;color: #888;line-height: 34px;}
+
+.tag{font-family: Regular;font-size: 16px;color:#C41230;letter-spacing: 2px;display: inline-block;border: 1px solid #888;padding: 3px;
+border-radius:2px;}
+
+.pozicijablack{background-color: #333333}
+
+.pozicijablack .fe , .pozicijablack .tag{color: white}
+
+.rightside{font-family: Semibold;font-size: 24px;color: #333333;display: inline-block;width:49%;float: right;border: 1px solid #888;padding:5px 20px;
+border-radius: 2px;width: 150px;text-align: center;margin-top: 28px;}
+
+
+.leftside{display: inline-block;width: 50%;text-align: left}
+
+.pozicijablack .rightside{color: white}
+
+.ucitaj{font-family: Semibold;text-align: center;font-size: 24px;color: #333333;border: 1px solid #888;padding:5px 20px ;border-radius: 2px;
+	width: 150px;margin: 0 auto;margin-bottom: 60px;margin-top: 60px;}
+
+.company{background-color: #f2f2f2;padding: 50px 20%;text-align: center;}
+
+.pratitenas{text-align: center;padding:60px;}
+
+.pratitenas img{width: 40px;height: 40px}
+
+.contact{background-color: #333333;padding: 0px 50px 50px 50px}
+
+
+
+.cityinfo {font-family: Light;font-size: 18px;color: #9b9b9b;margin: 5px;}
+
+.city {font-family: Regular;font-size: 18px;letter-spacing: 2px;color: white;display: inline-block;margin: 50px 0px 10px 0px}
+
+.contact div{display: inline-block;width: 33.33%;vertical-align: top;}
+
+.contact img{width: 13px;height: 20px;margin-right: 10px;  }
+
+footer{background-color: #222222;}
+
+.copyright , footer p{margin-top: 0px;margin-bottom: 0px;font-family: Regular;font-size: 14px;color:#333;display: inline-block;}
+
+
+
+a{text-decoration: none}
+
+footer img{width: 14px;height: 14px;margin: 0px 3px}
+
+.copyright , .social {display: inline-block;padding: 15px 50px}
+
+.social{float: right;background-color: #222222}
+
+
+.social p {margin-left: 20px}
+
+.company .frontend{text-align: left;}
+
+.company .redline{margin-bottom: 40px}
+
+.menumobile{display: none;font-family: Semibold;background-color: rgba(0,0,0, 0.8);color: white;position: fixed;top: 60px;width:100%;} 
+
+.menumobileparent{display: none}
+
+.menumobile img{width: 30px;height:30px;margin-left: 20px}
+
+.menumobile div{text-align: center;color: white;font-size: 40px;line-height: 100px;border-bottom: 1px solid #666}
+
+.noborder {border-bottom: 0px!important}
+
+.pratitenasimg{float: right;margin-right: 15%}
+
+.pratitenasmenu{float: left;padding:0px;font-size: 20px;color: #999;margin-left: 15%}{}{}{}{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile rules */
+
+@media only screen and (max-width: 767px) {
+
+
+
+.digital{display: block;}
+
+.digital2{display: none}
+
+.menuicon{display: inline-block;}
+
+
+
+.menu{display: none;}
+
+.logo{margin-left: 20px}
+
+.infos{display: block;width: calc(100% - 40px);background-image: none;}
+
+
+.rightside{display: none}
+
+.leftside{width:100%;}
+
+.pozicija{background-color: #f2f2f2;padding: 50px 5%;} 
+
+.pozicijablack{background-color: white}
+
+.pozicijablack .tag{color: #C41230}
+
+.pozicijablack .fe {color: #333333}
+
+.tag {border: 0px;color: #C41230}
+
+.contact div{display: block;width: 100%;text-align: center;}
+
+
+
+.copyright , .social{display: block;width: calc(100% - 100px);text-align: center;}
+
+.social{float: left;margin-bottom: 20px}
+
+.copyright {background-color: #333333;color: #5b5b5b}
+
+.menumobileparent{display: block;}
+
+
+}
